@@ -1,0 +1,105 @@
+‘âàãªâãà  ¯ ¯®ª
+‘¥à¨©­ë© ­®¬¥à â®¬ : F4A5-A9FE
+C:.
+³   .env.admin
+³   .env.user
+³   db.sqlite3
+³   docker-compose.yml
+³   init.sql
+³   manage.py
+³   structure.txt
+³   
+ÃÄÄÄ.vs
+³   ³   slnx.sqlite
+³   ³   VSWorkspaceState.json
+³   ³   
+³   ÀÄÄÄnews_api
+³       ÃÄÄÄFileContentIndex
+³       ³       366f6e82-58fc-4a33-afe4-13494ecbb665.vsidx
+³       ³       7078b87c-9d1a-46c3-99ac-8a169fa34d05.vsidx
+³       ³       dd47df8a-be1a-40cc-b10e-26c85aeb0298.vsidx
+³       ³       e6a85a83-365b-4688-a4b3-92ae290238e8.vsidx
+³       ³       fbe27f68-61f9-4306-a7e2-12df97632d96.vsidx
+³       ³       
+³       ÀÄÄÄv17
+³               DocumentLayout.backup.json
+³               DocumentLayout.json
+³               
+ÃÄÄÄadmin_api
+³   ³   admin.py
+³   ³   apps.py
+³   ³   Dockerfile
+³   ³   models.py
+³   ³   requirements.txt
+³   ³   serializers.py
+³   ³   tests.py
+³   ³   urls.py
+³   ³   views.py
+³   ³   __init__.py
+³   ³   
+³   ÃÄÄÄmigrations
+³   ³   ³   0001_initial.py
+³   ³   ³   __init__.py
+³   ³   ³   
+³   ³   ÀÄÄÄ__pycache__
+³   ³           0001_initial.cpython-311.pyc
+³   ³           __init__.cpython-311.pyc
+³   ³           
+³   ÀÄÄÄ__pycache__
+³           admin.cpython-311.pyc
+³           apps.cpython-311.pyc
+³           models.cpython-311.pyc
+³           serializers.cpython-311.pyc
+³           urls.cpython-311.pyc
+³           views.cpython-311.pyc
+³           __init__.cpython-311.pyc
+³           
+ÃÄÄÄnews_project
+³   ³   asgi.py
+³   ³   settings.py
+³   ³   urls.py
+³   ³   wsgi.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           settings.cpython-311.pyc
+³           urls.cpython-311.pyc
+³           wsgi.cpython-311.pyc
+³           __init__.cpython-311.pyc
+³           
+ÀÄÄÄuser_api
+    ³   admin.py
+    ³   apps.py
+    ³   Dockerfile
+    ³   models.py
+    ³   requirements.txt
+    ³   serializers.py
+    ³   tests.py
+    ³   urls.py
+    ³   views.py
+    ³   __init__.py
+    ³   
+    ÃÄÄÄmigrations
+    ³   ³   __init__.py
+    ³   ³   
+    ³   ÀÄÄÄ__pycache__
+    ³           __init__.cpython-311.pyc
+    ³           
+    ÃÄÄÄstatic
+    ³   ÀÄÄÄimg
+    ³           global.png
+    ³           
+    ÃÄÄÄtemplates
+    ³   ÀÄÄÄuser_api
+    ³           news_detail.html
+    ³           news_list.html
+    ³           
+    ÀÄÄÄ__pycache__
+            admin.cpython-311.pyc
+            apps.cpython-311.pyc
+            models.cpython-311.pyc
+            serializers.cpython-311.pyc
+            urls.cpython-311.pyc
+            views.cpython-311.pyc
+            __init__.cpython-311.pyc
+            

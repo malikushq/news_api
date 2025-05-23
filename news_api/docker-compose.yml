@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: adminadmin
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  admin-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.admin
+
+    env_file:
+      - .env.admin
+    ports:
+      - "8001:8000"
+    depends_on:
+      - db
+      - redis
+
+  user-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.user 
+    env_file:
+      - .env.user
+    ports:
+      - "8002:8000"
+    depends_on:
+      - db
+      - redis
+
+
+volumes:
+  postgres_data:
